@@ -1,0 +1,42 @@
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+label{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.boton{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 20px;
+}
+.btn {
+    font-family: 'Times New Roman', Times, serif;
+   
+    
+}
+.btn.btn-primary.btn-lg {
+    display:block;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #b67ca7; 
+   
+  }
+img{
+   
+    
+     width: 200px; 
+    height: 200px;
+     
+}
+.img-container {
+    text-align: center;
+  }
+

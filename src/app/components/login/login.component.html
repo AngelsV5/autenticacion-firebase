@@ -1,0 +1,21 @@
+<h2>Login de usuario</h2>
+<div class="img-container">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Crystal_Clear_app_Login_Manager.svg/2048px-Crystal_Clear_app_Login_Manager.svg.png" alt="">
+</div>
+
+<form [formGroup]="formLogin" (ngSubmit)="onSubmit()">
+    <div class="mb-3">
+        <label class="form-label">Email</label>
+        <input type="text" class="form-control" formControlName="email">
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Password</label>
+        <input type="password" class="form-control" formControlName="password">
+    </div>
+    <div class="boton">
+        <input type="submit" value="Ingresar">
+    </div>
+    
+    <p class="mt-3">No tienes cuenta? <a routerLink="/register"><br>REGISTRATE</a> </p>
+</form>
+<button class="btn btn-primary btn-lg" (click)="onClick()">Login With Google</button>
